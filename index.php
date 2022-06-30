@@ -48,7 +48,7 @@ $queryString_indexCordSet = sprintf("&totalRows_indexCordSet=%d%s", $totalRows_i
 <body>
 <table width="100" border="1" cellspacing="1" cellpadding="1" align="center">
   <tr>
-    <td colspan="4">新增</td>
+    <td colspan="4"><a href="add.php">新增</a></td>
   </tr>
   <tr>
     <td colspan="4">從1~2共2筆</td>
