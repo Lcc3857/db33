@@ -64,7 +64,7 @@ $queryString_indexCordSet = sprintf("&totalRows_indexCordSet=%d%s", $totalRows_i
   <?php do { ?>
   <tr>
     <td><?php echo $row_indexCordSet['ID']; ?></td>
-    <td><?php echo $row_indexCordSet['Name']; ?></td>
+    <td><a href="detail.php?id=<?php echo $row_indexCordSet['ID']; ?>"><?php echo $row_indexCordSet['Name']; ?></a></td>
     <td><?php echo $row_indexCordSet['Old']; ?></td>
     <td><?php echo $row_indexCordSet['Addr']; ?></td>
   </tr>
