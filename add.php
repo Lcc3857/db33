@@ -6,6 +6,23 @@
 </head>
 
 <body>
+<form>
+<table width="100" border="1" cellspacing="1" cellpadding="1" align="center">
+  <tr>
+    <td>Name</td>
+    <td>Old</td>
+    <td>Addr</td>
+  </tr>
+  <tr>
+    <td><input type="text" name=" " /></td>
+    <td><input type="text" name=" " /></td>
+    <td><input type="text" name=" " /></td>
+  </tr>
+  <tr>
+    <td colspan="3"><input type="submit" name=" " value="增加" /></td>
+  </tr>
+</table>
+</form>
 
 </body>
 </html>
