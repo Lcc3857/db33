@@ -6,5 +6,26 @@
 </head>
 
 <body>
+<form name="form1">
+<table width="100" border="1" cellspacing="1" cellpadding="1" align="center">
+  <tr>
+    <td>ID</td>
+    <td>Name</td>
+    <td>Old</td>
+    <td>Addr</td>
+  </tr>
+  <tr>
+    <td><input type="text" name="ID" value="" readonly="true" /></td>
+    <td><input type="text" name="Name" value="" /></td>
+    <td><input type="text" name="Old" value="" /></td>
+    <td><input type="text" name="Addr" value="" /></td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="submit" value="更新" /></td>
+    <td colspan="2">刪除</td>
+  </tr>
+</table>
+</form>
+
 </body>
 </html>
